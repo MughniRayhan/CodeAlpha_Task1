@@ -35,6 +35,18 @@ h1 {
   font-size: 18px;
   border-top-left-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
+  position: relative;
+}
+.delete {
+  background: #fff;
+  position: absolute;
+  left: 58%;
+  font-size: 20px;
+  color: #545353;
+  opacity: 0;
+}
+.delete.removeBtn {
+  opacity: 1;
 }
 button {
   font-size: 18px;
