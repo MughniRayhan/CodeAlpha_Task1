@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Image Search Engine</title>
+
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>Image Search Engine</h1>
@@ -19,8 +20,10 @@
         id="search-box"
         placeholder="Search anything here..."
       />
-      <button><i class="bx bx-search-alt-2"></i></button>
+      <button class="search-button"><i class="bx bx-search-alt-2"></i></button>
     </form>
+    <div id="search-result"></div>
+    <button id="show-more">Show More</button>
 
     <script src="script.js"></script>
   </body>
