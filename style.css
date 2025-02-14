@@ -119,6 +119,7 @@ button:hover {
     grid-template-columns: 1fr;
   }
   .search-form {
-    width: 400px;
+    width: 200px;
+    justify-content: center;
   }
 }
